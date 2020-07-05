@@ -11,9 +11,9 @@ guess = int(input("Enter your guess.\n"))
 count = 0
 while guess != n:
     if guess > n:
-        print("Too high-try again:")
+        print("Too high - try again:")
     else:
-        print("Too low-try again:")
+        print("Too low - try again:")
     count += 1
     guess = int(input())
 print("You guessed it in", count, "tries.")
